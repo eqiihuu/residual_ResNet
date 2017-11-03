@@ -1,0 +1,10 @@
+[qihucn@schneider ResNet-Seg]$ CUDA_VISIBLE_DEVICES=0,1 th main.lua --dataset cv --imHeight 384 -imWidth 480 --modelType 1 -lr 0.0001 -d 10 -de 300 -optimizer adam -maxEpoch 100 -batchSize 2 -encModel model/resnet-101.t7
+/homes/grail/qihucn/torch/install/bin/luajit: .../grail/qihucn/torch/install/share/lua/5.1/trepl/init.lua:389: loop or previous error loading module 'torch'
+stack traceback:
+	[C]: in function 'error'
+	.../grail/qihucn/torch/install/share/lua/5.1/trepl/init.lua:389: in function 'require'
+	main.lua:8: in main chunk
+	[C]: in function 'dofile'
+	...hucn/torch/install/lib/luarocks/rocks/trepl/scm-1/bin/th:150: in main chunk
+	[C]: at 0x00405c40
+[qihucn@schneider ResNet-Seg]$ ls

@@ -1,0 +1,4 @@
+install optnet
+
+luarocks install optnet
+luarocks install iterm
